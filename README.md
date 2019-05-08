@@ -23,3 +23,14 @@ Communicating with the iFormBuilder APIs requires parsing JSON data, in addition
         MsgBox "An access token to the iFormBuilder API could not be generated."
     End If 
 ```
+
+## Download IFB data to Access
+
+The function `DownloadIFBData` can be utilized to insert a parent form's data with all child form data as separate tables in an Access database. See the function documentation for further details.
+
+```visual basic
+DownloadIFBData(PageId := 123456, _
+                User := "MyUserName", _
+                Password := "MyPassword", _
+                ServerName := "MyCompany")
+```
