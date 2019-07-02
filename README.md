@@ -3,7 +3,7 @@ Resources for utilizing the Zerion iFormBuilder API in VBA.
 
 ## Dependencies
 
-Communicating with the iFormBuilder APIs requires parsing JSON data, in addition to encoding text in Base64 and hashing with SHA256. All of these capabilities are provided by [VBA-Web](https://github.com/VBA-tools/VBA-Web/) from VBA-Tools.
+Communicating with the iFormBuilder API requires parsing JSON data, in addition to encoding text in Base64 and hashing with SHA256. All of these capabilities are provided by [VBA-Web](https://github.com/VBA-tools/VBA-Web/) from VBA-Tools.
 
 ## Obtaining an API token
 
@@ -34,3 +34,7 @@ DownloadIFBData(PageId := 123456, _
                 Password := "MyPassword", _
                 ServerName := "MyCompany")
 ```
+
+## Deleting downloaded data from IFB
+
+
